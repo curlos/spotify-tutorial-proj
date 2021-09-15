@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+$primary-color: #000000;
+$background-color: #121212;
+$gray-color: #232323;
+$lightgray-color: #403E41;
+
+
+body {
+  background-color: $background-color;
+  color: white;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.searchInputContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  padding: 15px;
+  width: 70%;
+  border-radius: 20px;
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+
+.searchInput:focus {
+  outline: none;
+}
