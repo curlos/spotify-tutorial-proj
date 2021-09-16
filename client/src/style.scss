@@ -9,8 +9,13 @@ $lightgray-color: #403E41;
 body {
   background-color: $background-color;
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  font-size: 40px;
+  margin: 10px;
 }
 
 .searchInputContainer {
